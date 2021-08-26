@@ -1,8 +1,8 @@
-package com.basic;
+package com.sample;
 
 import org.junit.jupiter.api.Test;
 
-public class BasicTest {
+public class SampleTest {
 
     @Test
     public void dummyTest() {

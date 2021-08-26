@@ -1,11 +1,11 @@
-package com.basic;
+package com.sample;
 
-public class Basic {
+public class Sample {
 	public static void main(String[] args) {
 		System.out.println("hello");
 	}
 	
-	public Basic() {
+	public Sample() {
 	
 	}
 
