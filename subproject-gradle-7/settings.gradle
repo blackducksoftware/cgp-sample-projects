@@ -1,0 +1,3 @@
+rootProject.name = 'subproject-gradle-7'
+
+include 'subproject'
