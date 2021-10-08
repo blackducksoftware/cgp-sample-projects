@@ -3,7 +3,7 @@ buildscript {
 
     apply from: 'https://raw.githubusercontent.com/blackducksoftware/integration-resources/master/gradle_common/buildscript-cgp-version.gradle'
 
-    dependencies { classpath "com.synopsys.integration:common-gradle-plugin:${cgpVersion}" }
+    dependencies { classpath "com.synopsys.integration:common-gradle-plugin:${managedCgpVersion}" }
 
     repositories {
         mavenLocal()
@@ -13,5 +13,5 @@ buildscript {
 apply plugin: 'com.synopsys.integration.simple'
 
 dependencies {
-    implementation "com.synopsys.integration:common-gradle-plugin:${cgpVersion}"
+    implementation "com.synopsys.integration:common-gradle-plugin:${managedCgpVersion}"
 }
