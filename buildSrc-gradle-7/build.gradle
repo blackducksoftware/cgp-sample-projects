@@ -12,7 +12,7 @@ plugins {
 
 version = '3.9.13-SNAPSHOT'
 
-apply plugin: 'com.synopsys.integration.solution'
+apply plugin: 'com.blackduck.integration.solution'
 
 repositories {
     mavenCentral()
